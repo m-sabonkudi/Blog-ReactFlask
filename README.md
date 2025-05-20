@@ -1,6 +1,16 @@
 # Blog-React is my first project with the React framework!
 
 
+Home page:
+![Home page](.images/home.png)
+
+
+Creating a new blog post:
+![New blog post](.images/create.png)
+
+View a blog post:
+![View blog post](.images/one.png)
+___
 ## How to clone and run on your PC
 ### Cloning
 

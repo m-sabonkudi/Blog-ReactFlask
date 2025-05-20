@@ -56,5 +56,5 @@ This tells flask to host the app on port `4000`. Now that our flask app is runni
 ![vite.config.js](.images/vite.png)
 
 By default, (when using vite) react runs on port `5173`, the line `port : 4001,` asks react not to use the default port but should run on port `4001` instead.
-We then configured the react app to send any requests beginning with `/api` to the port `http://localhost:4000`, which is where our flask app is running on.
+We then configured the react app to send any requests beginning with `/api` to the port `http://localhost:4000`, which is where our flask app is running.
 

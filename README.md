@@ -48,7 +48,7 @@ Now you can go to this link in your browser: 🟢 [http://localhost:4001](http:/
 
 
 ___
-###What actually enables the backend (flask) and frontend (react.js) to interact with each other?
+### What actually enables the backend (flask) and frontend (react.js) to interact with each other?
 If you at the last line in the `main.py` file, you'll see:
 ![main.py](.images/main.png)
 

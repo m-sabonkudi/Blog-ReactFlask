@@ -45,3 +45,16 @@ ___
 
 
 Now you can go to this link in your browser: 🟢 [http://localhost:4001](http://localhost:4001)
+
+
+___
+###What actually enables the backend (flask) and frontend (react.js) to interact with each other?
+If you at the last line in the `main.py` file, you'll see:
+![main.py](.images/main.png)
+
+This tells flask to host the app on port `4000`. Now that our flask app is running on port `4000`, we now need to configure our react app to fetch backend data from that port. To do that, you can see lines `5-16` in `vite.config.js`, like so:
+![vite.config.js](.images/vite.png)
+
+By default, (when using vite) react runs on port `5173`, the line `port : 4001,` asks react not to use the default port but should run on port `4001` instead.
+We then configured the react app to send any requests beginning with `/api` to the port `http://localhost:4000`, which is where our flask app is running on.
+
